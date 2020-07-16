@@ -1,0 +1,109 @@
+
+
+<!DOCTYPE html>
+  <head>
+    <title>Donations</title>
+    <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/bvjJK2n0/treelogo.png" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <style>
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: rgb(163,171,46);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+    </style>
+  </head>
+
+  <body>
+
+    <img src='https://i.postimg.cc/bvjJK2n0/treelogo.png' height="150" width="150" style='padding-top: 10px; padding-left: 645px;'>
+        
+    <div style="margin: auto; width: 100%; padding-top: 10px; padding-left: 560px; color: rgb(163,171,46)">
+        
+    <a class='button' href='index.html'> <button>Home</button></a> &nbsp;&nbsp;&nbsp;
+    <a class='button' href='donate.html'> <button>Make a Donation</button></a> &nbsp;&nbsp;&nbsp;
+    <a class='button' href='donations.html'><button>Need Donations</button></a> &nbsp;&nbsp;&nbsp;
+    <a class='button' href='faq.html'> <button>FAQ</button></a> 
+    </div> <br>
+
+    <div style="display: flex; flex-direction: row; justify-content: center; width: 100%; background-color: rgb(163,171,46); margin-top: 2vw; margin-bottom: 2vw; padding: 2vw;"><div style="font-family: system-ui; font-size: 2vw; color: white; font-weight: bold;">Need Donations?</div></div>
+
+
+
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email ID..">
+      
+          <label for="country">Country</label>
+          <input type="text" id="country" name="country" placeholder="Your country of residence..">
+
+          <label for="type">Type of Entity</label>
+          <select id="type" name="type">
+            <option value="personal farm">Garden</option>
+            <option value="personal farm">Personal Farm</option>
+            <option value="commercial farm">Commerical Farm</option>
+            <option value="non profit organisation">Non-Profit Organisation</option>
+          </select>
+
+
+
+          <label for="org">Name of Entity</label>
+          <input type="text" id="org" name="org" placeholder="Your entity's name..">
+      
+          <label for="subject">Your Details</label>
+          <textarea id="subject" name="subject" placeholder="Please be thorough" style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+
+
+
+
+    <div style="display:flex;flex-direction:column;width:100%;background-color:rgb(163,171,46);align-items:center;padding:2vw"><div style="justify-content:center;margin-bottom:0.5vw;color:white;font-size:1vw">Any questions?<!-- --> <a style="font-weight:bold;cursor:pointer;color:inherit" href="mailto:ag18052002@gmail.com">ag18052002@gmail.com</a></div><div style="font-family:system-ui;font-size:1vw;color:white">© buyatree.xyz 2020 | All rights reserved.</div></div>
+
+  </body>
+</html>
+
